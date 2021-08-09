@@ -11,7 +11,7 @@ test-config.edn
 profiles.clj
 /.env
 .nrepl-port
-
+guestbook.code-workspace
 /node_modules
 /log
 .calva

@@ -26,6 +26,6 @@
               {:connection t-conn})))
     (test/is (= {:name "Bob"
             :message "Hello, World"}
-           (-> (db/get-messages! t-conn {})
+           (-> (db/get-messages t-conn {})
                (first)
                (select-keys [:name :message]))))))
